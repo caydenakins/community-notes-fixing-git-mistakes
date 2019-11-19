@@ -136,7 +136,7 @@ Cayden Akins: *Is it common to delete your branch after you get your work merged
 
 Cayden Akins: *Can you reiterate how to decide between a rebase or a merge?*
 - Rebase allows you to keep the straight history (no merges shown), whereas merging shows all the history. Instead of rebasing, which takes commits and stacks them on top of each other, merging takes commits and merges them together.
--
+
 Pros of merging: Keep all history, aren't changing commits.
 
 Cons of merging: Keeps all history and you have merge commits, which are extra commits.
@@ -145,7 +145,7 @@ Pros of rebasing: Nice, straight history.
 
 Cons of rebasing: Lose all information of the merging and you may change information you pushed.
 
-Typically, you will have your team pick between merging or rebasing and stick with it for projects.  
+Typically, you will have your team pick between merging or rebasing and stick with it for projects.
 
 Raghu Bandaru: *Can you go through fixup vs squash*
 - Squash will combine messages and fixup keeps the original, but discards the message from the fixup commit. Squash can change the commit message based on all the messages.
