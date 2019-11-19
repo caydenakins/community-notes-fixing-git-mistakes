@@ -30,7 +30,7 @@ In order to prevent merge conflicts as a whole, make sure you pull before mergin
 
 `git reflog -all` shows list of commits the HEAD has pointed to.
 
-`git commit ---amend --no-edit` will ament a commit without changing the commit message.
+`git commit ---amend --no-edit` will amend a commit without changing the commit message.
 
 `git remote prune origin` can be used to clean up local branches that cna be deleted/pruned.
 
@@ -135,11 +135,11 @@ Cayden Akins: *Is it common to delete your branch after you get your work merged
 - Every team is different, but most commonly you will push your stuff to github, there is a code review, then the merger will delete your branch and you clean up other misc things afterwards.
 
 Cayden Akins: *Can you reiterate how to decide between a rebase or a merge?*
-- Rebase allows you to keep the straight history (no merges shown), whereas merging shows all the history. Instead of rebasing, which takes commits and stacks them on top of each other, merging takes commits and merges them together.  
-Pros of merging: Keep all history, aren't changing commits.  
-Cons of merging: Keeps all history and you have merge commits, which are extra commits.  
-Pros of rebasing: Nice, straight history.  
-Cons of rebasing: Lose all information of the merging and you may change information you pushed.  
+- Rebase allows you to keep the straight history (no merges shown), whereas merging shows all the history. Instead of rebasing, which takes commits and stacks them on top of each other, merging takes commits and merges them together.
+Pros of merging: Keep all history, aren't changing commits.
+Cons of merging: Keeps all history and you have merge commits, which are extra commits.
+Pros of rebasing: Nice, straight history.
+Cons of rebasing: Lose all information of the merging and you may change information you pushed.
 Typically, you will have your team pick between merging or rebasing and stick with it for projects.
 
 Raghu Bandaru: *Can you go through fixup vs squash*
